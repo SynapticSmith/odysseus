@@ -80,6 +80,8 @@ graph TD
 <summary>View Frontend Architecture</summary>
 
 ### Frontend Architecture (Vanilla JS)
+- **[`static/js/cookbook-deps-recipes.js`](../static/js/cookbook-deps-recipes.js)**: Supporting core file.
+- **[`static/js/workspace.js`](../static/js/workspace.js)**: Supporting core file.
 
 <details>
 <summary>View Frontend Architecture (Vanilla JS)</summary>
@@ -677,6 +679,8 @@ For self-hosted models that may struggle with complex tasks, Odysseus implements
 </details>
 
 ### Chat Processing & Engine Logic ([`src/`](../src/))
+- **[`src/reminder_personas.py`](../src/reminder_personas.py)**: Supporting core file.
+- **[`src/upload_limits.py`](../src/upload_limits.py)**: Supporting core file.
 - **[`src/chat_helpers.py`](../src/chat_helpers.py)**: Core module recently added for modularity.
 - **[`src/llm_core.py`](../src/llm_core.py)**: Core module recently added for modularity.
 - **[`src/office_doc.py`](../src/office_doc.py)**: Core module recently added for modularity.
@@ -884,6 +888,10 @@ graph TD
 <summary>View Features & Integrations</summary>
 
 ### External Integrations & Companion Bridge
+- **[`integrations/claude/README.md`](../integrations/claude/README.md)**: Supporting core file.
+- **[`integrations/claude/skills/odysseus/SKILL.md`](../integrations/claude/skills/odysseus/SKILL.md)**: Supporting core file.
+- **[`integrations/codex/README.md`](../integrations/codex/README.md)**: Supporting core file.
+- **[`integrations/codex/skills/odysseus/SKILL.md`](../integrations/codex/skills/odysseus/SKILL.md)**: Supporting core file.
 
 <details>
 <summary>View External Integrations & Companion Bridge</summary>
